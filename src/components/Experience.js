@@ -113,46 +113,46 @@ class Experience extends Component {
 		const beSkills = [
 			{
 				title: 'NodeJS',
-				// stars: ['on', 'on', 'on', 'on', 'off']
+				stars: ['on', 'on', 'on', 'on', 'on']
 			},
 			{
 				title: 'MongoDB',
-				// stars: ['on', 'on', 'on', 'on', 'off']
+				stars: ['on', 'on', 'on', 'on', 'on']
 			},
 			{
 				title: 'Firebase/Firestore',
-				// stars: ['on', 'on', 'off', 'off', 'off']
+				stars: ['on', 'on', 'off', 'on', 'on']
 			},
 			{
 				title: 'AWS',
-				// stars: ['on', 'on', 'off', 'off', 'off']
+				stars: ['on', 'on', 'on', 'on', 'on']
 			},
 			{
 				title: 'GraphQL',
-				// stars: ['on', 'on', 'off', 'off', 'off']
+				stars: ['on', 'on', 'off', 'on', 'on']
 			},
 		];
 
 		const feSkills = [
 			{
 				title: 'HTML 5',
-				// stars: ['on', 'on', 'on', 'on', 'off']
+				stars: ['on', 'on', 'on', 'on', 'on']
 			},
 			{
 				title: 'CSS 3',
-				// stars: ['on', 'on', 'on', 'off', 'off']
+				stars: ['on', 'on', 'on', 'on', 'on']
 			},
 			{
 				title: 'Javascript',
-				// stars: ['on', 'on', 'on', 'on', 'off']
+				stars: ['on', 'on', 'on', 'on', 'on']
 			},
 			{
 				title: 'ReactJS',
-				// stars: ['on', 'on', 'on', 'on', 'off']
+				stars: ['on', 'on', 'on', 'on', 'on']
 			},
 			{
 				title: 'GatsbyJS',
-				// stars: ['on', 'on', 'on', 'on', 'off']
+				stars: ['on', 'on', 'on', 'on', 'on']
 			},
 
 		];
