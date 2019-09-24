@@ -266,18 +266,18 @@ class Projects extends Component {
                   </a>
                 </div>
                 <h5>{langText.projects.caf.ref}</h5>
-                <div className="testimonial">
-                  <h2>{langText.misc.testimonial}</h2>
-                  <blockquote>{langText.projects.caf.testimonial}<span>Rocío Jiménez</span></blockquote>
-                </div>
-                <div>Blog post: <a href="https://dev.to/georginagrey/how-i-leveraged-jamstack-to-cut-down-costs-for-a-nonprofit-76f" target="_blank" rel="noopener noreferrer">{langText.projects.caf.devto}</a></div>
+                {/*<div className="testimonial">*/}
+                  {/*<h2>{langText.misc.testimonial}</h2>*/}
+                  {/*<blockquote>{langText.projects.caf.testimonial}<span>Rocío Jiménez</span></blockquote>*/}
+                {/*</div>*/}
+                {/*<div>Blog post: <a href="https://dev.to/georginagrey/how-i-leveraged-jamstack-to-cut-down-costs-for-a-nonprofit-76f" target="_blank" rel="noopener noreferrer">{langText.projects.caf.devto}</a></div>*/}
 
-              </div>
+              {/*</div>*/}
               <div className="project-wrapper">
                 <div className="header">
                   <h1>Portfolio</h1>
                   <div className="caf-url">
-                    <a href="https://georginagrey.com" target="_blank" rel="noopener noreferrer">www.georginagrey.com</a>
+                    <a href="http://timonline.ninja" target="_blank" rel="noopener noreferrer">timonline.ninja</a>
                   </div>
                   <div className="tech">
                     <span>#reactjs</span>
@@ -289,7 +289,7 @@ class Projects extends Component {
                   {langText.projects.portfolio}
                   <br /><br />
                   {langText.projects.devto}
-                  <a href="https://dev.to/georginagrey/my-first-portfolio-with-react-and-aws-2g73" target="_blank" rel="noopener noreferrer">{langText.misc.here}.</a>
+                  {/*<a href="https://dev.to/georginagrey/my-first-portfolio-with-react-and-aws-2g73" target="_blank" rel="noopener noreferrer">{langText.misc.here}.</a>*/}
                 </p>
               </div>
             </section>

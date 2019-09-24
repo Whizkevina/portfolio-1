@@ -24,8 +24,8 @@ const main = css({
   },
 
   img: {
-    height: '20em',
-    paddingRight: '30%'
+    height: '13em',
+    width: '7em'
   },
 
   '.serviceBox': {
@@ -180,7 +180,7 @@ class Home extends Component {
             <title>Ain Oluwatimilehin | Web Developer</title>
             <meta name="og:title" property="og:title" content="Aina Oluwatimilehin | Web Developer" />
             <meta name="og:description" property="og:description" content="I'm a Web Developer with 2+ years of experience focused on making Web Applications that load fast, look good and are easy to use." />
-            <meta name="og:image" property="og:image" content="https://res.cloudinary.com/georginagrey/image/upload/v1546544471/georginagrey.png" />
+            {/*<meta name="og:image" property="og:image" content="https://res.cloudinary.com/georginagrey/image/upload/v1546544471/georginagrey.png" />*/}
           </Helmet>
         <LanguageContext.Consumer>
           {({ langText: lang }) => (

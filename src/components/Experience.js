@@ -112,57 +112,50 @@ class Experience extends Component {
 	render() {
 		const beSkills = [
 			{
-				title: '.NET',
-				stars: ['on', 'off', 'off', 'off', 'off']
-			},
-			{
 				title: 'NodeJS',
-				stars: ['on', 'on', 'on', 'on', 'off']
+				// stars: ['on', 'on', 'on', 'on', 'off']
 			},
 			{
 				title: 'MongoDB',
-				stars: ['on', 'on', 'on', 'on', 'off']
+				// stars: ['on', 'on', 'on', 'on', 'off']
 			},
 			{
 				title: 'Firebase/Firestore',
-				stars: ['on', 'on', 'off', 'off', 'off']
+				// stars: ['on', 'on', 'off', 'off', 'off']
 			},
 			{
 				title: 'AWS',
-				stars: ['on', 'on', 'off', 'off', 'off']
+				// stars: ['on', 'on', 'off', 'off', 'off']
 			},
 			{
 				title: 'GraphQL',
-				stars: ['on', 'on', 'off', 'off', 'off']
+				// stars: ['on', 'on', 'off', 'off', 'off']
 			},
 		];
 
 		const feSkills = [
 			{
 				title: 'HTML 5',
-				stars: ['on', 'on', 'on', 'on', 'off']
+				// stars: ['on', 'on', 'on', 'on', 'off']
 			},
 			{
 				title: 'CSS 3',
-				stars: ['on', 'on', 'on', 'off', 'off']
+				// stars: ['on', 'on', 'on', 'off', 'off']
 			},
 			{
 				title: 'Javascript',
-				stars: ['on', 'on', 'on', 'on', 'off']
+				// stars: ['on', 'on', 'on', 'on', 'off']
 			},
 			{
 				title: 'ReactJS',
-				stars: ['on', 'on', 'on', 'on', 'off']
+				// stars: ['on', 'on', 'on', 'on', 'off']
 			},
 			{
 				title: 'GatsbyJS',
-				stars: ['on', 'on', 'on', 'on', 'off']
+				// stars: ['on', 'on', 'on', 'on', 'off']
 			},
-			{
-				title: 'Angular',
-				stars: ['on', 'on', 'on', 'off', 'off']
-			},
-		]
+
+		];
 		return (
 			<section id="experience" className={main} >
 				<LanguageContext.Consumer>

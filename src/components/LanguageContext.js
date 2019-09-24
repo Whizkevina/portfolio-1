@@ -44,8 +44,8 @@ export const languages = {
 			link: "Take me Home"
 		},
 		projects: {
-			portfolio: "  No pics for this one because you're on it! I decided to add it here because it was fun to build, learned a few new tricks and wrote a blog post about it. Is a multi-language website (the language switcher is in the center of the footer) built with ReactJS, AWS and Google's Firebase database.\n\nIt is hosted and served by Amazon Web Services infrastructure, the code is published on a S3 bucket and is served faster in America and Europe by CloudFront, which is a content delivery network that greatly improves the website's load time and security.",
-			devto: "The blog post I mentioned was published on dev.to, if you are curious, you can check it out ",
+			portfolio: "  No pics for this one because you're on it! I decided to add it here because it was fun to build, learned a few new tricks and wrote a blog post about it. Is a multi-language website (the language switcher is in the center of the footer) built with ReactJS.\n\nIt is hosted and served by Heroku, the code is published on a github and is served faster in America and Europe by CloudFront, which is a content delivery network that greatly improves the website's load time and security.",
+			// devto: "The blog post I mentioned was published on dev.to, if you are curious, you can check it out ",
 			caf: {
 				ref: "Feminist Economic Network",
 				home: "Home Page",
