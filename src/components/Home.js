@@ -3,7 +3,7 @@ import { css } from 'emotion';
 import Helmet from 'react-helmet';
 import { LanguageContext } from './LanguageContext';
 import { color } from './Theme';
-import me from '../assets/1188036-human_skin_001.png';
+import me from '../assets/Aina-Oluwatimilehin-removebg-preview.png';
 import ServiceBox from './ServiceBox';
 
 const main = css({
