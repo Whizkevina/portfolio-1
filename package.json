@@ -1,6 +1,6 @@
 {
-  "name": "georginagrey",
-  "version": "0.1.0",
+  "name": "ainatim",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
     "emotion": "^9.2.12",
@@ -16,8 +16,22 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "deploy": "aws s3 sync build/ s3://georginagrey.com"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
