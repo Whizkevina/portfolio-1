@@ -272,7 +272,7 @@ class Projects extends Component {
                 {/*</div>*/}
                 {/*<div>Blog post: <a href="https://dev.to/georginagrey/how-i-leveraged-jamstack-to-cut-down-costs-for-a-nonprofit-76f" target="_blank" rel="noopener noreferrer">{langText.projects.caf.devto}</a></div>*/}
 
-              {/*</div>*/}
+              </div>
               <div className="project-wrapper">
                 <div className="header">
                   <h1>Portfolio</h1>
