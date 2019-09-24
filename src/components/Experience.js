@@ -113,23 +113,19 @@ class Experience extends Component {
 		const beSkills = [
 			{
 				title: '.NET',
-				stars: ['on', 'on', 'on', 'on', 'off']
+				stars: ['on', 'off', 'off', 'off', 'off']
 			},
 			{
 				title: 'NodeJS',
-				stars: ['on', 'on', 'on', 'off', 'off']
+				stars: ['on', 'on', 'on', 'on', 'off']
 			},
 			{
-				title: 'SQL Server',
+				title: 'MongoDB',
 				stars: ['on', 'on', 'on', 'on', 'off']
 			},
 			{
 				title: 'Firebase/Firestore',
-				stars: ['on', 'on', 'on', 'off', 'off']
-			},
-			{
-				title: 'Oracle',
-				stars: ['on', 'on', 'on', 'off', 'off']
+				stars: ['on', 'on', 'off', 'off', 'off']
 			},
 			{
 				title: 'AWS',
@@ -139,7 +135,7 @@ class Experience extends Component {
 				title: 'GraphQL',
 				stars: ['on', 'on', 'off', 'off', 'off']
 			},
-		]
+		];
 
 		const feSkills = [
 			{
@@ -189,9 +185,9 @@ class Experience extends Component {
 
 							<p>
 								{langText.experience.more}
-								<a href="https://www.linkedin.com/in/georginagrey" target="_blank" rel="noopener noreferrer">{langText.misc.here}</a>
+								<a href="https://www.linkedin.com/in/ainaoluwatimmy" target="_blank" rel="noopener noreferrer">{langText.misc.here}</a>
 								{langText.experience.resume}
-								<a href="https://s3.amazonaws.com/georginagrey-util/Georgina+Grey+-+Web+Dev.pdf" target="_blank" rel="noopener noreferrer">{langText.misc.here}.</a>
+								<a href="https://drive.google.com/open?id=0B6MJOam6W0E0UXBfMzJTRjlYQ0VFOWFYQWlzNXNFYnFMMWdF" target="_blank" rel="noopener noreferrer">{langText.misc.here}.</a>
 							</p>
 						</section>
 					)}

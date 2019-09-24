@@ -3,7 +3,7 @@ import { css } from 'emotion';
 import Helmet from 'react-helmet';
 import { LanguageContext } from './LanguageContext';
 import { color } from './Theme';
-import me from '../assets/grey.svg';
+import me from '../assets/1188036-human_skin_001.png';
 import ServiceBox from './ServiceBox';
 
 const main = css({
@@ -24,8 +24,8 @@ const main = css({
   },
 
   img: {
-    height: '13em',
-    width: '7em'
+    height: '20em',
+    paddingRight: '30%'
   },
 
   '.serviceBox': {
@@ -177,16 +177,16 @@ class Home extends Component {
     return (
       <div id="home" className={main}>
           <Helmet>
-            <title>Georgina Grey | Web Developer</title>
-            <meta name="og:title" property="og:title" content="Georgina Grey | Web Developer" />
-            <meta name="og:description" property="og:description" content="I'm a Web Developer with 7+ years of experience focused on making Web Applications that load fast, look good and are easy to use." />
+            <title>Ain Oluwatimilehin | Web Developer</title>
+            <meta name="og:title" property="og:title" content="Aina Oluwatimilehin | Web Developer" />
+            <meta name="og:description" property="og:description" content="I'm a Web Developer with 2+ years of experience focused on making Web Applications that load fast, look good and are easy to use." />
             <meta name="og:image" property="og:image" content="https://res.cloudinary.com/georginagrey/image/upload/v1546544471/georginagrey.png" />
           </Helmet>
         <LanguageContext.Consumer>
           {({ langText: lang }) => (
             <section>
               <div className={title}>
-                <h1>GEORGINA GREY</h1>
+                <h1>Aina Oluwatimilehin</h1>
                 <div className={typewritter}>
                   <h2>{lang.home.details}</h2>
                 </div>

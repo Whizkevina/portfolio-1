@@ -160,12 +160,14 @@ class Contact extends Component {
 			}
 		}).then(r => {
 			console.log('Message sent!');
+			alert("Message sent!");
 			let { name, subject, email, message } = this.state;
 			name = subject = email = message = '';
 			this.setState({ name, subject, email, message });
 
 		})
 			.catch(e => {
+				alert(`Erro sending message ${e}`);
 				console.log(`Error sending message ${e}`);
 			});
 	}
